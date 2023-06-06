@@ -4,6 +4,7 @@ title: 02-Git的使用
 
 ## 补充
 ### 打标签
+[git 参考](https://git-scm.com/book/en/v2/Git-Basics-Tagging)
 查看tag,打标签,提交本地tag至远程,删除tag,在某个提交打标签,切换tag分支进行修改内容
 ```
 git tag || git tag -l "v1.8.*"
@@ -13,10 +14,6 @@ git tag -d v1.0 , git push origin :refs/tags/v1.0  || git push origin --delete v
 git tag -a v1.0 commitId
 git checkout -b version1 v1.0
 ```
-
-
-
-
 
 
 ## 常见操作
