@@ -4,13 +4,14 @@ title: 02-Git的使用
 
 ## 补充
 ### 打标签
-查看tag,打标签,提交本地tag至远程,删除tag,
+查看tag,打标签,提交本地tag至远程,删除tag,在某个提交打标签,
 ```
 git tag || git tag -l "v1.8.*"
 git tag v1.0
 git push origin v1.0
 git tag -d v1.0 , git push origin :refs/tags/v1.0  || git push origin --delete v1.0
 git tag -a v1.0 commitId
+git checkout -b version1 v1.0
 ```
 
 
